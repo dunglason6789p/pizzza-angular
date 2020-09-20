@@ -31,7 +31,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery-2.2.3.min.js",
+              "src/js/cs.script.js",
+              "src/js/main.js",
+              "src/js/plugin.js"
+            ]
           },
           "configurations": {
             "production": {
