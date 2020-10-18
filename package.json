@@ -1,9 +1,10 @@
 {
-  "name": "try-angular",
+  "name": "pizzza-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-4201": "ng serve --port 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
