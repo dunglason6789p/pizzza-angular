@@ -21,7 +21,7 @@ export class AppComponent {
       name: 'Bánh Hamburger',
       cost: 123456,
       costOld: 456789,
-      imageUrl: './pizzza/6.jpg'
+      imageUrl: './assets/img/6.jpg'
     }
   ];
 
