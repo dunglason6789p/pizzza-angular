@@ -388,7 +388,7 @@ img.grayscale:hover {
 }
 
 .htop .bg-topbar {
-    background: url("https://via.placeholder.com/150") repeat-x bottom left
+    background: url("/assets/img/bd-bt-tb.png") repeat-x bottom left
 }
 
 .htop .detop {
@@ -799,7 +799,7 @@ img.grayscale:hover {
 
 .header-menu:after {
     content: '';
-    background: url("https://via.placeholder.com/150") repeat-x bottom left;
+    background: url("/assets/img/bd-bt-bg.png") repeat-x bottom left;
     width: 100%;
     position: absolute;
     left: 0;
@@ -1948,7 +1948,7 @@ footer {
     width: 100%;
     float: left;
     margin-top: 30px;
-    background: url("https://via.placeholder.com/150") repeat-x top left #f8f1e4
+    background: url("/assets/img/bg-foo.jpg") repeat-x top left #f8f1e4
 }
 
 footer .content-search {
@@ -7856,7 +7856,7 @@ body .bizweb-product-reviews-badge {
 
 .aside-item .aside-title {
     position: relative;
-    background: url("https://via.placeholder.com/150") repeat-x center left #c69c6d;
+    background: url("/assets/img/bg-title.jpg") repeat-x center left #c69c6d;
     margin-bottom: 30px
 }
 

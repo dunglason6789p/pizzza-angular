@@ -433,7 +433,7 @@ section, .section, .block {
 .title_module_main {
     width: 100%;
     float: left;
-    background: url("https://via.placeholder.com/150") repeat-x center left #c69c6d;
+    background: url("/assets/img/bg-title.jpg") repeat-x center left #c69c6d;
     margin-bottom: 30px
 }
 
