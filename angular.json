@@ -29,13 +29,18 @@
               "src/pizzza"
             ],
             "styles": [
-              "src/styles.scss"
             ],
             "scripts": [
-              "src/js/jquery-2.2.3.min.js",
-              "src/js/cs.script.js",
-              "src/js/main.js",
-              "src/js/plugin.js"
+              "src/assets/js/js-lib/jquery-351.js",
+              "src/assets/js/js-lib/bootstrap-460.js",
+              "src/assets/js/js-lib/owl.carousel.js",
+              "src/assets/js/js-lib/popper-260.js",
+              "src/assets/js/js-lib/console.log-wrapper.js",
+              "src/assets/js/js-lib/double_tab_togo.js",
+              "src/assets/js/js-lib/jquery-appear.js",
+              "src/assets/js/js-custom/main.js",
+              "src/assets/js/js-custom/mainBizweb.js",
+              "src/assets/js/js-custom/mainInitBizweb.js"
             ]
           },
           "configurations": {
