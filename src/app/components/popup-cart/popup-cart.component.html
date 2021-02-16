@@ -1,0 +1,24 @@
+<div id="popup-cart" class="modal fade" role="dialog">
+  <div class="ajax-success-modal">
+    <div class="content">
+      <div class="ajax-left">
+        <img class="ajax-product-image" alt=" " src="./assets/img/1.jpg"><!--/saved_resource-->
+      </div>
+      <div class="ajax-right">
+        <p class="ajax-product-title"></p>
+        <p class="success-message btn-go-to-cart">
+          <span style="color:#000">✔</span>
+          Đã được thêm vào giỏ hàng.
+        </p>
+        <div class="actions">
+          <button onclick="window.location=&#39;/cart&#39;" class="btn btn-red-popup">Giỏ hàng</button>
+          <button onclick="window.location=&#39;/checkout&#39;" class="btn btn-red-popup">Thanh toán</button>
+        </div>
+      </div>
+      <a title="Close" class="close-modal" href="javascript:;"
+         onclick="$(&#39;#popup-cart&#39;).modal(&#39;hide&#39;);">
+        <i class="fa  fa-close"></i>
+      </a>
+    </div>
+  </div>
+</div>

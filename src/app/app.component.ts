@@ -1,12 +1,5 @@
 import { Component } from '@angular/core';
-
-interface Product {
-  id: string;
-  name: string;
-  cost: number;
-  costOld: number;
-  imageUrl: string;
-}
+import {Product} from './models/Product';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +8,7 @@ interface Product {
 })
 export class AppComponent {
   title = 'try-angular';
-  newProductListCarousel: Product[] = [
+  productListTwo: Product[] = [
     {
       id: this.generateNewId() + '',
       name: 'Bánh Hamburger',
@@ -24,9 +17,8 @@ export class AppComponent {
       imageUrl: './assets/img/6.jpg'
     }
   ];
-
-  nextIdForGenerator = 0;
-  generateNewId(): number {
+  private nextIdForGenerator = 0;
+  private generateNewId(): number {
     return this.nextIdForGenerator++;
   }
 }
