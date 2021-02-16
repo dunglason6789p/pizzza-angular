@@ -1,5 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {Product} from '../../models/Product';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-awe-section-two',
@@ -7,9 +6,6 @@ import {Product} from '../../models/Product';
   styleUrls: ['./awe-section-two.component.scss']
 })
 export class AweSectionTwoComponent implements OnInit {
-  @Input()
-  public productList: Product[] = [];
-
   constructor() { }
 
   ngOnInit(): void {

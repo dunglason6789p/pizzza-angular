@@ -15,6 +15,10 @@ import { AddToCartComponent } from './components/add-to-cart/add-to-cart.compone
 import { PopupAweOneComponent } from './components/popup-awe-one/popup-awe-one.component';
 import { PopupAddCartComponent } from './components/popup-add-cart/popup-add-cart.component';
 import { PopupCartComponent } from './components/popup-cart/popup-cart.component';
+import { ProductSectionAlphaComponent } from './components/product-sections/product-section-alpha/product-section-alpha.component';
+import { ProductSectionBravoComponent } from './components/product-sections/product-section-bravo/product-section-bravo.component';
+import { ProductSectionCharlieComponent } from './components/product-sections/product-section-charlie/product-section-charlie.component';
+import { ProductSectionDeltaComponent } from './components/product-sections/product-section-delta/product-section-delta.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { PopupCartComponent } from './components/popup-cart/popup-cart.component
     AddToCartComponent,
     PopupAweOneComponent,
     PopupAddCartComponent,
-    PopupCartComponent
+    PopupCartComponent,
+    ProductSectionAlphaComponent,
+    ProductSectionBravoComponent,
+    ProductSectionCharlieComponent,
+    ProductSectionDeltaComponent
   ],
   imports: [
     BrowserModule,
