@@ -1,8 +1,8 @@
 <div class="owl-carousel owl_col_section owl-loaded owl-drag" data-dot="false" data-nav="true" data-lg-items="3"
      data-md-items="3" data-height="true" data-xs-items="1" data-sm-items="3" data-margin="30">
-  <div class="owl-stage-outer" *ngFor="let product of productList">
+  <div class="owl-stage-outer">
     <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2342px;">
-      <div class="owl-item active" style="width: 262.667px; margin-right: 30px;">
+      <div class="owl-item active" *ngFor="let product of productList" style="width: 262.667px; margin-right: 30px;">
         <div class="item_product_main itemcustome">
           <div class="product-box product-item-main product-item-compare">
             <div class="product-thumbnail">
